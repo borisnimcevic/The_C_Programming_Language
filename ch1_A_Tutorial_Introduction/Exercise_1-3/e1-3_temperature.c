@@ -19,12 +19,12 @@ int main(){
 	upper = 300;  /* upper limit */
 	step = 20; /* step size */
 
-	printf("Celsius: \t Fahrenheit:\n");
+	printf("Fahrenheit: \t Celsius:\n");
 
 	fahr = lower;
 	while (fahr <= upper){
 		celsius = (5.0/9.0) * (fahr-32.0);
-		printf("     %3.0f\t\t%6.1f\n", fahr, celsius ); //added '\t' for tab, so it can align with the headers
+		printf("     %3.0f\t%6.1f\n", fahr, celsius ); //added '\t' for tab, so it can align with the headers
 		fahr += step;
 	}
 
